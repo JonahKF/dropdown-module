@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "./styles.css";
 
 const navController = () => {
@@ -16,4 +17,6 @@ const navController = () => {
   });
 };
 
-navController();
+export default class Dropdown {
+  navController
+}

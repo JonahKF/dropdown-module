@@ -17,6 +17,4 @@ const navController = () => {
   });
 };
 
-export default class Dropdown {
-  navController
-}
+navController();
